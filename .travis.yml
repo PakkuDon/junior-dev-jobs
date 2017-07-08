@@ -10,5 +10,6 @@ script:
 - "./build/linux/test.sh"
 deploy:
   provider: "heroku"
+    app: "pakkudon-jdjobs-dev"
     api_key:
       secure: AmaZRYxuIQEnmJwifjgur+5NHCMLR3b6v1GQ+WAkqhNA9iR5Iw9LGMPQLvdyYwLW6IR+7bxG8CdXLIwBGg3SsUwozYDCejjab+SDos9e0CQNZjHmYRjaADD4LFKP8c+v9a7KuIsMpVPme7e9GA/g7iKxmPrRCLV/AujMNjmSWpHOCt2gLC4EzGemoGBZd5Q6zUpzOvrdpasiV/M0qbSHvmRKIDUbuCsAYIhEgxRvBz1QYDNL61XR7+edrI/KKUDC+KgGtggnvTYeX9s60ARdQIurwYZdsfUtiakCEgnm9MO9EsQDsARecWACmyLJeAomEyYfKfUc//FeS5ZoXvs3owAlO01Za5W1KTJ1LEvkiECvNpVGJ7n5d7bNZZzm0LsaObEy5PXEUKcIyeDQHOVPHUFstM4D4DGW+eNSzYaxuASqif/4vC8TP+17dhVI3odm0dBCG+fusJVpgnJfJXcg5mhTxk3ocEegKGwgRoN/COR5Jzy9VHX06MEMTrkNaPqZcyT91stbw+BL8CxWdrIXTdWtgQgnb+NkI+lrOBmgYQIKeSOxh3dtQLEcriQN+/Y9GjcD9S1V/xiuVBtw1n/DLxybBgyioKbO092d47TibNrNoUgRg+UVRRjWFfnStzRzfS52HEx5li+aGlX0jKTcF5E4SlInRL9cyGkK0W44Z3I=
